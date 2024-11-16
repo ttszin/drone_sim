@@ -1,0 +1,47 @@
+[0.012s] Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/teteu/ros2_ws/src/drone_sim -DCMAKE_INSTALL_PREFIX=/home/teteu/ros2_ws/src/drone_sim/install/drone_sim
+[0.430s] -- The C compiler identification is GNU 11.4.0
+[0.925s] -- The CXX compiler identification is GNU 11.4.0
+[0.974s] -- Detecting C compiler ABI info
+[1.115s] -- Detecting C compiler ABI info - done
+[1.128s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.129s] -- Detecting C compile features
+[1.132s] -- Detecting C compile features - done
+[1.140s] -- Detecting CXX compiler ABI info
+[1.261s] -- Detecting CXX compiler ABI info - done
+[1.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.271s] -- Detecting CXX compile features
+[1.272s] -- Detecting CXX compile features - done
+[1.276s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.521s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.747s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.844s] -- Configuring done
+[1.847s] -- Generating done
+[1.849s] -- Build files have been written to: /home/teteu/ros2_ws/src/drone_sim/build/drone_sim
+[1.854s] Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/teteu/ros2_ws/src/drone_sim -DCMAKE_INSTALL_PREFIX=/home/teteu/ros2_ws/src/drone_sim/install/drone_sim
+[1.856s] Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+[1.898s] Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+[1.933s] Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim
+[1.942s] -- Install configuration: ""
+[1.942s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/launch
+[1.942s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/launch/drone_sim_launch.py
+[1.942s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/worlds
+[1.942s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/worlds/main.world
+[1.942s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/worlds/model.config
+[1.943s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/worlds/model.sdf
+[1.943s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/lib/drone_sim/controller.py
+[1.943s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/ament_index/resource_index/package_run_dependencies/drone_sim
+[1.943s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/ament_index/resource_index/parent_prefix_path/drone_sim
+[1.943s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/environment/ament_prefix_path.sh
+[1.944s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/environment/ament_prefix_path.dsv
+[1.944s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/environment/path.sh
+[1.944s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/environment/path.dsv
+[1.944s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/local_setup.bash
+[1.945s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/local_setup.sh
+[1.945s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/local_setup.zsh
+[1.945s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/local_setup.dsv
+[1.945s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/package.dsv
+[1.946s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/ament_index/resource_index/packages/drone_sim
+[1.946s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/cmake/drone_simConfig.cmake
+[1.946s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/cmake/drone_simConfig-version.cmake
+[1.946s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/package.xml
+[1.949s] Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim

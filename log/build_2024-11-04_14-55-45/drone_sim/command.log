@@ -1,0 +1,4 @@
+Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim
+Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim
