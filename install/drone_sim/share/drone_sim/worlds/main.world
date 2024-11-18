@@ -891,35 +891,44 @@
     <model name='iris'>
       <pose>0.239085 -0.01239 0.194923 0 -0 0</pose>
       <link name='base_link'>
-        <!-- Sensor Lidar -->
-
-        <sensor type ="ray" name="lidar_sensor">
-          <pose>0 0 0.054 0 0 0</pose>
-          <visualize>true</visualize>
-          <update_rate>10</update_rate>
+        <sensor name="lidar" type="ray">
+          <pose>0 0 0.1 0 0 0</pose>
           <ray>
             <scan>
               <horizontal>
-                <samples>720</samples>
+                <samples>360</samples>
                 <resolution>1</resolution>
-                <min_angle>-3.14</min_angle>
-                <max_angle>3.14</max_angle>
+                <min_angle>-1.57</min_angle>
+                <max_angle>1.57</max_angle>
               </horizontal>
             </scan>
             <range>
-              <min>0.1</min>
+              <min>0.2</min>
               <max>30.0</max>
-              <resolution>0.01</resolution>
             </range>
           </ray>
-          <plugin name="lidar"
-          filename="libgazebo_ros_ray_sensor.so">
-          </plugin>
+          <update_rate>10</update_rate>
+          <topic>/scan</topic>
         </sensor>
-
     
         <!-- Sensor Câmera -->
-    
+        <sensor name="camera" type="depth">
+          <pose>0 0 0.2 0 0 0</pose>
+          <camera>
+            <horizontal_fov>1.047</horizontal_fov>
+            <image>
+              <width>640</width>
+              <height>480</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.1</near>
+              <far>10.0</far>
+            </clip>
+          </camera>
+          <update_rate>10</update_rate>
+          <topic>/camera/depth/image_raw</topic>
+        </sensor>
         <velocity_decay>
           <linear>0</linear>
           <angular>0</angular>

@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+[0.059s] Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+[0.096s] Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim
+[0.106s] -- Install configuration: ""
+[0.106s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/launch
+[0.106s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/launch/drone_sim_launch.py
+[0.107s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/worlds
+[0.107s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/worlds/main.world
+[0.107s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/worlds/model.config
+[0.107s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/worlds/model.sdf
+[0.107s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/lib/drone_sim/controller.py
+[0.107s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/ament_index/resource_index/package_run_dependencies/drone_sim
+[0.108s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/ament_index/resource_index/parent_prefix_path/drone_sim
+[0.108s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/environment/ament_prefix_path.sh
+[0.108s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/environment/ament_prefix_path.dsv
+[0.108s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/environment/path.sh
+[0.108s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/environment/path.dsv
+[0.108s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/local_setup.bash
+[0.108s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/local_setup.sh
+[0.109s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/local_setup.zsh
+[0.109s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/local_setup.dsv
+[0.109s] -- Installing: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/package.dsv
+[0.109s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/ament_index/resource_index/packages/drone_sim
+[0.109s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/cmake/drone_simConfig.cmake
+[0.109s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/cmake/drone_simConfig-version.cmake
+[0.109s] -- Up-to-date: /home/teteu/ros2_ws/src/drone_sim/install/drone_sim/share/drone_sim/package.xml
+[0.111s] Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim
